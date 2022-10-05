@@ -1,0 +1,10 @@
+termo1=input('digite algo:')
+print(type(termo1))
+print('alfanumérico:{}'.format(termo1.isalnum()))
+print('numérico:{}'.format(termo1.isnumeric()))
+print('alfa:{}'.format(termo1.isalpha()))
+print('espaço: {}'.format(termo1.isspace()))
+print('maiúscula:{}'.format(termo1.isupper()))
+print('minúscula:{}'.format(termo1.islower()))
+print('capitalizada:{}'.format(termo1.istitle()))
+
